@@ -8,3 +8,12 @@ class Dota
     end
 
 end 
+
+
+test = Dota.new("Carry", "Sven", "Legend")
+
+puts "#{test.role}"
+
+test.role = "Middle"
+
+puts "#{test.role}"
